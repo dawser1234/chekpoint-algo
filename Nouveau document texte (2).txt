@@ -1,0 +1,31 @@
+var 
+nc,nv,nw:integer
+a,c:string
+begin
+nc=0;
+nw=1;
+nv=0
+read(a)
+ for (i=0;a[i]!=.;i++)
+if ( a[i]!=".")
+nc=nc+1;
+for (i=0;a[i]!=.;i++)
+if (a[i]=" ")then
+nw=nw+1
+if (a[0]=" ")
+nw=nw-1;
+
+}
+if a[i]=" ."
+nw=nw-1
+for (i=0;a[i]!=.;i++)
+if (a[i]='a'ou'e'ou'o'ou'y'ou'e')
+nv=nv+1
+
+
+while(a[i]<>".")
+nc=nc+1
+while(a[i] in ['a,e,u,i,o,y]
+nv=nv+1
+while(a[i]=" ")
+nw=nw+1
